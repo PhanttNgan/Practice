@@ -1,0 +1,89 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        
+        body {
+            background: url(../images/bg-desktop.svg) no-repeat fixed #674BB1;
+            background-size: 100% 100%;
+        }
+        
+        #header {
+            margin: 64px;
+            max-height: 160px;
+        }
+        
+        .container {
+            display: flex;
+            max-width: 1280px;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        
+        .illustration {
+            margin-top: 40px;
+            width: 100%;
+            height: auto;
+            flex-basis: 60%;
+        }
+        
+        .content {
+            flex-basis: 40%;
+        }
+        
+        .content-text {
+            max-width: 520px;
+            max-height: 210px;
+            margin: 78px 0 33px;
+        }
+        
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5em;
+        }
+        
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.125em;
+        }
+        
+        h1,
+        p {
+            color: aliceblue;
+        }
+        
+        button,
+        .button-re {
+            padding: 15.5px 64px;
+            border-radius: 30px;
+            border: none;
+            background-color: #FFFFFF;
+            color: #674BB1;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        button,
+        .button-re:hover {
+            border-radius: 30px;
+            border: none;
+            background-color: #E980E7;
+            padding: 15.5px 64px;
+            color: #FFFFFF;
+        }
+        
+        @media (max-width: 575.98px) {
+            Body {
+                background: url(../images/bg-mobile.svg) no-repeat #674BB1;
+                background-size: 100%;
+            }
+            .illustration {
+                margin-top: 40px;
+                height: auto;
+                flex-basis: 100%;
+            }
+            .content {
+                flex-basis: 100%;
+            }
+        }
